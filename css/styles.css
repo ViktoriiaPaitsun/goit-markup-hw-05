@@ -465,9 +465,12 @@ img {
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  padding: 0 24px;
+  padding-left: 16px;
   background-color: transparent;
   color: #fff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
 }
 
 .footer-input::placeholder {
@@ -494,6 +497,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .footer-send-icon {
@@ -573,8 +577,6 @@ img {
   font-weight: 500;
   color: #2e2f42;
   text-align: center;
-  margin-top: 48px;
-  margin-bottom: 16px;
 }
 
 .modal-input {
@@ -603,8 +605,6 @@ img {
 }
 
 .modal-label {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
